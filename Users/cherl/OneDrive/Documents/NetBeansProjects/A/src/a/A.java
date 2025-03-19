@@ -3,16 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package a;
-
-/**
- *
- * @author cherly
- */
 public class A {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Hai My Name is Cherly");
