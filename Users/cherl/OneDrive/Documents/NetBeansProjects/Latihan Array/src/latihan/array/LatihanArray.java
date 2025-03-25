@@ -27,7 +27,7 @@ public class LatihanArray {
             jumlah++;
         }
     }
-    double rata_rata = total / jumlah;
+    double rata_rata = (double) total / jumlah;
         System.out.println("Nilai Rata-Rata Array : " + rata_rata);
         
     // b. Mengubah nilai berdasarkan input pengguna
