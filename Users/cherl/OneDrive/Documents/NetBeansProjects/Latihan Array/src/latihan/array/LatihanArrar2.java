@@ -3,8 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package latihan.array;
-
-
 public class LatihanArrar2 {
     public static void main(String[] args) {
         String[][] data = {
