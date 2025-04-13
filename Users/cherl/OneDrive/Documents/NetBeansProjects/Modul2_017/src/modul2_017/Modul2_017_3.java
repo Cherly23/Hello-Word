@@ -4,7 +4,6 @@
  */
 package modul2_017;
 
-import java.awt.HeadlessException;
 import javax.swing.JOptionPane;
 
 public class Modul2_017_3 {
@@ -44,19 +43,19 @@ public class Modul2_017_3 {
             } else if (pilihan == 2) {
                 int alas = Integer.parseInt(JOptionPane.showInputDialog("Masukkan Alas : "));
                 int tinggi = Integer.parseInt(JOptionPane.showInputDialog("Masukkan Tinggi :"));
-                total = count.luas_Segitiga(alas, tinggi);;
+                total = count.luas_Segitiga(alas, tinggi);
                 jenis = "Segitiga";
             } else if (pilihan ==3) {
                 int diameter = Integer.parseInt(JOptionPane.showInputDialog("Masukkan Diameter : "));
                 total = count.luas_lingkaran(diameter);
                 jenis = "Lingkaran";
             } else {
-                JOptionPane.showInputDialog(null, "Pilihan Tidak Valid, Harus Antara 1-3");
+                JOptionPane.showMessageDialog(null, "Pilihan Tidak Valid, Harus Antara 1-3");
             } 
-            JOptionPane.showMessageDialog(null, "Luas " + "= " + total);
+            JOptionPane.showMessageDialog(null, "Luas " + jenis +" = " + total);
             System.out.println("Luas " + jenis + " = " + total);
-    } catch (Exception e){
-        JOptionPane.showMessageDialog(null, "Inputan Tidak Valid");
+    } catch (Exception e) {
+        System.out.println("Inputan Tidak Valid, Silahkan Coba Lagi");
        } 
     }
 }
