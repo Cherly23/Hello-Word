@@ -4,6 +4,8 @@
  */
 package modul2_017;
 
+import javax.swing.JOptionPane;
+
 public class Modul2_017 {
     public static void main(String[] args) {
        int bil = 10;
@@ -19,9 +21,8 @@ public class Modul2_017 {
            System.out.println(n.getMessage());
        } catch (Exception e) {
            System.out.println("Ada eror");
-           System.out.println(e.getMessage());
-       }
-               
+           JOptionPane.showMessageDialog(null, e.getMessage());
+           // null adalah layarnya dimana
+       }          
     }
-    
 }

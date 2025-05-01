@@ -37,7 +37,7 @@ public class Modul2_017_2 {
                     + "2. Volume Tabung\n"
                     + "3. Volume Kerucut\n"
                     + "4. Vollulme Bola\n");
-        System.out.print("Masukkan Pilihan : ");
+        System.out.print("Masukkan Pilihan (1-4): ");
         byte pilihan = input.nextByte();
         
         if (pilihan == 1) {
